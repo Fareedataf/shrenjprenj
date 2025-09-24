@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>توعية سيبرانيه مع شرنج برنج </title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <!-- شريط التنقل -->
+  <header class="navbar">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html">شرنج برنج</a>
+      <button class="nav-toggle" aria-label="القائمة">☰</button>
+      <nav class="nav">
+        <a href="index.html">الرئيسية</a>
+        <a href="typesofcyberattack.html">الهجمات</a>
+        <a href="protection.html">الحماية</a>
+        <a href="articles.html">المقالات</a>
+        <a href="about.html">من نحن</a>
+        <a href="login.html">دخول</a>
+        <a href="sginup.html">تسجيل</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- القسم البطولي (Hero) -->
+  <section class="hero">
+    <div class="hero-inner">
+      <h1>الأمن السيبراني يبدأ بك</h1>
+      <p>حماية معلوماتك وبياناتك من التهديدات الإلكترونية مسؤولية وضرورة في عصرنا الرقمي.</p>
+      <div class="btns">
+        <a href="typesofcyberattack.html" class="btn btn-primary">اكتشف الهجمات</a>
+        <a href="protection.html" class="btn btn-ghost">طرق الحماية</a>
+      </div>
+      <img src="../amges/log.jpeg" alt="صورة الأمن السيبراني" class="hero-img" >
+    </div>
+  </section>
+
+  <!-- قسم المميزات / الخدمات -->
+  <section class="section container">
+    <h2>مميزات المشروع</h2>
+    <div class="grid-3">
+      <div class="card">🔒 حماية من الاختراق</div>
+      <div class="card">🛡️ تأمين الحسابات</div>
+      <div class="card">📊 تقارير شاملة</div>
+    </div>
+  </section>
+
+  <!-- معرض صور -->
+  <section class="section container">
+    <h2>معرض الصور</h2>
+    <div class="grid-3">
+      <img src="../amges/phishing.png" alt="هجوم التصيد">
+      <img src="../amges/troj.jpg" alt="حصان طروادة">
+      <img src="../amges/ransomeware.png" alt="هجوم الفدية">
+    </div>
+  </section>
+
+  <!-- مقالات مختصرة -->
+  <section class="section container">
+    <h2>آخر المقالات</h2>
+    <div class="grid-3">
+      <div class="card">
+        <h3>التصيد الإلكتروني</h3>
+        <p>أحد أكثر الهجمات شيوعًا، يستهدف المستخدمين عبر البريد الإلكتروني المزيف...</p>
+        <a href="articles.html" class="btn">اقرأ المزيد</a>
+      </div>
+      <div class="card">
+        <h3>حصان طروادة</h3>
+        <p>برمجية خبيثة تتخفى في صورة ملف أو برنامج عادي لإصابة جهاز الضحية...</p>
+        <a href="articles.html" class="btn">اقرأ المزيد</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- قسم من نحن -->
+  <section class="section container about">
+    <h2>من نحن</h2>
+    <div class="content clearfix">
+      <img src="../amges/ز.jpg" alt="فريق العمل" class="img-right">
+      <p>
+        نحن فريق طلابي نهدف إلى نشر التوعية بالأمن السيبراني. 
+        يركز مشروعنا على شرح أنواع الهجمات الإلكترونية وطرق الحماية منها بأسلوب مبسط وسهل الفهم.
+      </p>
+    </div>
+  </section>
+
+  <!-- نموذج تواصل -->
+  <section class="section container">
+    <h2>تواصل معنا</h2>
+    <form class="form">
+      <div class="form-row">
+        <label for="name">الاسم</label>
+        <input type="text" id="name" name="name" required>
+        <small class="error" data-for="name"></small>
+      </div>
+      <div class="form-row">
+        <label for="email">البريد الإلكتروني</label>
+        <input type="email" id="email" name="email" required>
+        <small class="error" data-for="email"></small>
+      </div>
+      <div class="form-row">
+        <label for="message">رسالتك</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        <small class="error" data-for="message"></small>
+      </div>
+      <button type="submit" class="btn btn-primary">إرسال</button>
+    </form>
+  </section>
+
+  <!-- التذييل -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 مشروع الأمن السيبراني — جميع الحقوق محفوظة</p>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
